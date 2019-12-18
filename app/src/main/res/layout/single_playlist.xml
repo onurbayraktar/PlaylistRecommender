@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/playlist_imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/annoyed_mood_ic_96"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/playlist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@+id/playlist_imageView"
+        android:layout_toRightOf="@+id/playlist_imageView"
+        android:layout_toEndOf="@+id/playlist_imageView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playlist_no_of_songs"
+        android:layout_alignBottom="@+id/playlist_imageView"
+        android:layout_alignLeft="@+id/playlist_name"
+        android:layout_alignStart="@+id/playlist_name"
+        android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>

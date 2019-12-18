@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:background="#A20021"
+              android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/upload_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#7F96FF">
+        <LinearLayout
+            android:id="@+id/upload_ll1_image_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="3">
+            <ImageView
+                android:id="@+id/upload_imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/upload_from_gallery_ic_64" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/upload_ll1_text_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/photo_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Enter Image Url.."
+                android:textSize="25dp"
+                android:layout_weight="3"/>
+            <Button
+                android:id="@+id/ok_button_on_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="OK !"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

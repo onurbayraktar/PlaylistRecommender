@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music Recommender</string>
+    <string name="main_header">Choose Your Service Field</string>
+    <string name="weather_string">Search Based on Weather</string>
+    <string name="mood_string">Search Based on Mood</string>
+    <string name="image_string">Search With an Image</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyDnzp6hGAz_DKuhGnIVkP9ZvkX4rDyUEZo</string>
+    <string name="title_activity_chose_location">Map</string>
+    <string name="title_upload_photo">Upload Your Photo !</string>
+    <string name="upload_photo_from_gallery"> Upload From Gallery</string>
+    <string name="upload_photo_from_camera"> Take a New Photo</string>
+    <string name="upload_photo_with_url"> Upload With URL</string>
+    <string name="com_spotify_sdk_redirect_scheme">com.example.onurb.musicrecommender</string>
+    <string name="com_spotify_sdk_redirect_host">callback</string>
+    <string name="title_activity_mood_select">Mood Select</string>
+    <string name="no_of_tracks">No. of Tracks: %1$s </string>
+</resources>
